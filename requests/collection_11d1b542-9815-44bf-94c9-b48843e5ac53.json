@@ -1,0 +1,138 @@
+[
+  {
+    "id": "3459cd1c-39a0-454a-9813-6bc7665a7bbd",
+    "executionDate": "",
+    "collectionId": "11d1b542-9815-44bf-94c9-b48843e5ac53",
+    "collectionName": "Registration",
+    "name": "Untitled Request",
+    "description": "",
+    "requestMethodDTO": {
+      "type": "GET"
+    },
+    "url": "https://app2163.smartioapp.com/st_backup_restore/v1/registration.php?full_name=amc&email_address=abc@xyz10.com&password=123",
+    "queryParams": [
+      {
+        "selected": true,
+        "key": "full_name",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "amc"
+        },
+        "description": ""
+      },
+      {
+        "selected": true,
+        "key": "email_address",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "abc@xyz10.com"
+        },
+        "description": ""
+      },
+      {
+        "selected": true,
+        "key": "password",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "123"
+        },
+        "description": ""
+      }
+    ],
+    "pathVariables": [],
+    "headers": [
+      {
+        "selected": true,
+        "key": "user-agent",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "Keyrunner"
+        }
+      },
+      {
+        "selected": true,
+        "key": "cache-control",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "No-Cache"
+        }
+      },
+      {
+        "selected": true,
+        "key": "Accept-Encoding",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "gzip, deflate, br"
+        }
+      },
+      {
+        "selected": true,
+        "key": "Connection",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "keep-alive"
+        }
+      },
+      {
+        "selected": true,
+        "key": "accept",
+        "type": {
+          "type": "RAW"
+        },
+        "rawDTO": {
+          "value": "*/*"
+        }
+      }
+    ],
+    "bodyDTO": {
+      "Content-Type": "None",
+      "raw": {
+        "value": "{}"
+      },
+      "binary": ""
+    },
+    "expectedResponseDTO": {
+      "body": "{}",
+      "Content-Type": "application/json",
+      "statusCode": 0,
+      "pathsToIgnore": [],
+      "headers": []
+    },
+    "actualResponseDTO": {
+      "body": "{}",
+      "statusCode": 0,
+      "headers": {}
+    },
+    "authDTO": {
+      "typeDTO": "PARENT"
+    },
+    "tests": [
+      {
+        "test": "",
+        "action": "",
+        "value": ""
+      }
+    ],
+    "preScripts": "",
+    "postScripts": "",
+    "useCertBasedAuth": false,
+    "requestTimeout": 30,
+    "tenantId": "",
+    "projectId": "",
+    "workspaceId": ""
+  }
+]

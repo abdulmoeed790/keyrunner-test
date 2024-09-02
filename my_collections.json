@@ -1,0 +1,16 @@
+[
+  {
+    "childCollections": [],
+    "description": "Back and Restore Profile API",
+    "id": "11d1b542-9815-44bf-94c9-b48843e5ac53",
+    "name": "Registration",
+    "parentCollection": "",
+    "projectId": "",
+    "requests": [],
+    "tenantId": "",
+    "workspaceId": "",
+    "authDTO": {
+      "typeDTO": "PARENT"
+    }
+  }
+]
